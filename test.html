@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <title>WEB TECNOLOGY PROJECT</title>
+     <link rel="stylesheet" type="text/css" href="">
+     <script type="text/javascript">
+       var s1="goutham";
+       var s2="reddy";
+       var s3=s2.concat(s1);
+     </script>
+</head>
+<body>
+  <h1>WEB TECNOLOGY PROJECT</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="education.html">Education</a>
+      <a href="test.html" class="active">Assignments</a>
+      <a href="social.html">social</a>
+    </nav>
+  </header>
+  <input type="checkbox" class="fine" id="toggle">
+<label for="toggle">&#9776;
+</label>
+<div class="work">
+</div>
+<h1> Web Technology Assingments</h1>
+<p>Please click the menu option to open my assignments.</p>
+
+<nav>
+  <ul>
+    
+    <li><a href="timetable.html">Assignment-1</a></li>
+    <li><a href="assignment-2.html">Assignment-2</a></li>
+  </ul>
+</nav>
+  <style type="text/css">
+    header{
+    background-color: #000000;
+    padding: 30px;
+    background-image: url("../images/flywheel.jpg");
+    background-color: #ABCDFE;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    padding: 10px;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #000000;
+}
+input {
+  display: none;
+}
+
+
+nav a{
+    color: #000000;
+    display: inline-block;
+    margin: auto 1.2%;
+    width :22%;
+    height: 5%;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2% 0%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.25);
+}
+          
+
+.active{
+    background-color: #FFFFFF;
+    color:  #001FFF ;
+}
+label {
+  color: #0087cc;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px 9px;
+  transition: all .15s ease;
+}
+label:hover {
+  color: #ff7b29;
+}
+input:checked + label {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  color: #9799a7;
+}
+input:checked ~ nav {
+  max-height: 500px;
+}
+label,
+ul {
+  border: 1px solid #cecfd5;
+  border-radius: 6px;
+}
+ul {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+  width: 100px;
+}
+li {
+  border-bottom: 1px solid #cecfd5;
+}
+li:last-child {
+  border-bottom: 0;
+}
+a.fine{
+  max-height: 0;
+  overflow: hidden;
+  transition: all .15s ease;
+}
+
+  </style>
+</body>
+
+      
